@@ -1,0 +1,23 @@
+{
+  "name": "module3",
+  "version": "1.0.0",
+  "description": "Web Proxy for connection to Replicate API to Stable Diffusion, based on Shiffman, based on Joey Lee ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "api",
+    "selfie"
+  ],
+  "author": "Dan O'Sullivan",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "nedb": "^1.8.0",
+    "node-fetch": "^2.6.0"
+  }
+}
